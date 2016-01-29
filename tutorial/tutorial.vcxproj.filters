@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{4b4d00f6-db65-4b59-baf8-151b4f94d252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua\headers">
+      <UniqueIdentifier>{de4bfc98-4fd6-41ac-a876-8ed6f2cbbec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua\source">
+      <UniqueIdentifier>{f76d8ff2-b521-482d-8224-63bb3a52cd0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lapi.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lauxlib.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lcode.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lctype.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\ldebug.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\ldo.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lfunc.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lgc.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\llex.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\llimits.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lmem.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lobject.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lopcodes.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lparser.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lprefix.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lstate.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lstring.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\ltable.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\ltm.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lvm.h">
+      <Filter>lua\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lua.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lua.hpp">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\luaconf.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lualib.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lundump.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\lua\src\lzio.h">
+      <Filter>lua\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\tutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lapi.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lauxlib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lbaselib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lbitlib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lcode.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lcorolib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lctype.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ldblib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ldebug.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ldo.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ldump.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lfunc.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lgc.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\linit.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\liolib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\llex.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lmathlib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lmem.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\loadlib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lobject.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lopcodes.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\loslib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lparser.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lstate.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lstring.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lstrlib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ltable.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ltablib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\ltm.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lundump.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lutf8lib.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lzio.c">
+      <Filter>lua\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\lua\src\lvm.c">
+      <Filter>lua\headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
