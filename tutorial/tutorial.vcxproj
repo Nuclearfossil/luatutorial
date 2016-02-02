@@ -158,9 +158,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\shared\lua\src\lapi.h" />
     <ClInclude Include="..\shared\lua\src\lauxlib.h" />
     <ClInclude Include="..\shared\lua\src\lcode.h" />
