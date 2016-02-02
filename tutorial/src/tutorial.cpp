@@ -7,6 +7,8 @@
 #include <conio.h>
 #include <map>
 
+#include <vld.h>
+
 using namespace std;
 
 class ConfigNode
