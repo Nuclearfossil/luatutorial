@@ -184,6 +184,7 @@
     <ClInclude Include="..\shared\lua\src\lundump.h" />
     <ClInclude Include="..\shared\lua\src\lvm.h" />
     <ClInclude Include="..\shared\lua\src\lzio.h" />
+    <ClInclude Include="src\config.h" />
     <ClInclude Include="src\targetver.h" />
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +221,7 @@
     <ClCompile Include="..\shared\lua\src\lutf8lib.c" />
     <ClCompile Include="..\shared\lua\src\lvm.c" />
     <ClCompile Include="..\shared\lua\src\lzio.c" />
+    <ClCompile Include="src\config.cpp" />
     <ClCompile Include="src\tutorial.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
