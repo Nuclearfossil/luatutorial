@@ -20,10 +20,6 @@ public:
 		m_stringValue(nullptr)
 	{}
 
-	ConfigNode(const char* key) :
-		ConfigNode()
-	{}
-
 	ConfigNode(const char* key, bool value) : 
 		m_nodeType(NODE_BOOL),
 		m_booleanValue(value)
@@ -67,6 +63,8 @@ public:
 			delete (*it).second;
 		}
 		m_nodes.clear();
+
+		delete[] m_stringValue;
 	}
 
 	bool m_booleanValue;
@@ -157,6 +155,8 @@ int main()
 		cerr << lua_tostring(L, -1) << endl;
 		lua_pop(L, 1);
 	}
+
+	lua_close(L);
 
 	printf("Press any key to continue\n");
 	_getch();
