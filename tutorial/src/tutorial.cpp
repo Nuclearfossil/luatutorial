@@ -4,11 +4,17 @@
 #include <iostream>
 #include <lua.hpp>
 
+#if defined(__APPLE_CC__)
+#include <stdio.h> 
+#include <stdlib.h>   
+#include <curses.h> 
+#else
 #include <conio.h>
+#endif
+
 #include "config.h"
 
 using namespace std;
-
 
 Config g_config;
 
@@ -41,6 +47,10 @@ int main()
 	lua_close(L);
 
 	printf("Press any key to continue\n");
+#if defined(__APPLE_CC__)
+	getch();
+#else
 	_getch();
+#endif
 	return 0;
 }
