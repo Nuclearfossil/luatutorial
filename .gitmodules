@@ -1,0 +1,3 @@
+[submodule "shared/EASTL"]
+	path = shared/EASTL
+	url = https://github.com/Nuclearfossil/EASTL.git
